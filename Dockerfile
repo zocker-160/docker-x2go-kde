@@ -23,7 +23,7 @@ RUN mkdir /var/run/sshd
 
 # Configure default user
 RUN adduser --gecos "X2Go User" --disabled-password linux
-RUN echo "linux:debian" | chpasswd
+RUN echo "linux:linux" | chpasswd
 
 # Install KDE suite
 RUN set -x \

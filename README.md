@@ -6,7 +6,7 @@ Image for setting up X2Go server with KDE Plasma 5.
 
 ## Run-it
 
-Use X2Go client with user and password: `x2go / x2go`.
+Use X2Go client with user and password: `linux / linux`.
 
 An SSH server is listening on port `localhost:2222` on your host. Use that as
 a connection string for X2Go.
